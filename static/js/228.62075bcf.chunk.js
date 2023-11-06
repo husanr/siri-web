@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksiri_radiator=self.webpackChunksiri_radiator||[]).push([[228],{50228:function(r,i,e){e.r(i);var n=e(72791),t=e(80184),u=(0,n.memo)((function(){return(0,t.jsx)("div",{children:"Not found"})}));i.default=u}}]);
+//# sourceMappingURL=228.62075bcf.chunk.js.map
