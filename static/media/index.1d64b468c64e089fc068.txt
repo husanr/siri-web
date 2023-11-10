@@ -1,0 +1,29 @@
+const fs = require('fs');
+
+// 读取文本文件内容
+const text = fs.readFileSync('./text.txt', 'utf-8'); // 请将 'your_input_file.txt' 替换为包含文本信息的文件路径
+
+// 分割文本为多个条目
+const entries = text.split('\n\n');
+// console.log(entries);
+// 创建一个数组来存储每个条目
+const data = [];
+
+entries.forEach((entry) => {
+  // const lines = entry.trim().split('\n');
+  // const titleAndDescription = lines.slice(1).join('\n').trim();
+
+  // // 检查标题是否包含序号
+  // const titleMatch = lines[0].match(/^(\d+、)?(.*)/);
+  // if (titleMatch[0]) {
+  //   const title = titleMatch[2].trim();
+  //   const description = titleAndDescription;
+  //   data.push({ title, description });
+  // }
+  data.push(entry)
+});
+
+// 将数据保存为JSON文件
+fs.writeFileSync('output.json', JSON.stringify(data, null, 2));
+
+console.log('Data saved as JSON.');

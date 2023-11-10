@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksiri_radiator=self.webpackChunksiri_radiator||[]).push([[39],{73039:function(r,i,e){e.r(i);var s=e(72791),a=e(80184),n=(0,s.memo)((function(){return(0,a.jsx)("div",{children:"News"})}));i.default=n}}]);
-//# sourceMappingURL=39.7c2c188f.chunk.js.map
